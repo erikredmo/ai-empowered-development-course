@@ -16,6 +16,7 @@
             <h1>My Todos</h1>
             <div class="input-section">
                 <input type="text" id="todoInput" placeholder="Add a new todo...">
+                <input type="date" id="dueDateInput">
                 <button id="addBtn">Add</button>
             </div>
 
@@ -23,6 +24,7 @@
                 <button class="filter-btn active" data-filter="all">All</button>
                 <button class="filter-btn" data-filter="active">Active</button>
                 <button class="filter-btn" data-filter="completed">Completed</button>
+                <button id="sortBtn" class="sort-btn">Sort by Due Date</button>
             </div>
 
             <ul class="todoList" id="todoList"></ul>
