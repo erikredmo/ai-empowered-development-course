@@ -8,3 +8,5 @@ yarn-error.log*
 .vite/
 powerpoint/
 .claude/
+test-results/
+playwright-report/
